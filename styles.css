@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.carousel-inner {
+    height: 400px; 
+
+.carousel-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+}
+
+
